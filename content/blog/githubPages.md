@@ -23,7 +23,7 @@ Checkout this page source [sigmaSd.github.io](https://github.com/sigmaSd/sigmaSd
 
 ---
 
-*Edit1*: Now that I use multiple pages, the new command is (*fish sell*):
+*Update1*: Now that I use multiple pages, the new command is (*fish sell*):
 
 ```fish
 for i in (ls | rg '\.md')
@@ -33,4 +33,6 @@ end
 
 ---
 
-*Edit2*: The up-to-date command is located here [compile.fish](../compile.fish)
+*Update2*: The up-to-date command is located here [compile.fish](https://github.com/sigmaSd/sigmaSd.github.io/blob/simple_html%2Bcss/compile.fish)
+
+*Update3*: This page now uses [zola](https://www.getzola.org/). To see the old method blogged about in this post, checkout this link [old_page](https://github.com/sigmaSd/sigmaSd.github.io/tree/simple_html+css) (html/css branch)
