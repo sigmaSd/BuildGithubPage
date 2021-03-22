@@ -14,8 +14,16 @@ should get you up and running.
 
 ---
 
-The only thing I had to look for was formatting dates, here is how to do it:
-`{{ page.date | date(format="%D ") }}`
+*Couple of things I had to look for:*
+
+- **Formatting dates:** 
+
+`{{ page.date | date(format=$chrono_format_string) }}` example: `{{ page.date | date(format="%D") }}`
+
+
+- **Using the correct relative url in the template:**
+
+`{ get_url(path=$path)}` example: `{ get_url(path="/")}`
 
 ---
 
